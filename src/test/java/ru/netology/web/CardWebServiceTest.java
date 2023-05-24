@@ -19,6 +19,7 @@ public class CardWebServiceTest {
 
     @BeforeAll
     static void setUpAll() {
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
     }
 
